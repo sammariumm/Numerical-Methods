@@ -1,0 +1,13 @@
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\bin\Debug\MatrixAdjoint.exe.config
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\bin\Debug\MatrixAdjoint.exe
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\bin\Debug\MatrixAdjoint.pdb
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.csproj.AssemblyReference.cache
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.Form1.resources
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.Properties.Resources.resources
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.csproj.GenerateResource.cache
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.csproj.CoreCompileInputs.cache
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.exe
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.pdb
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.exe.config
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.matrix2x2.resources
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.matrix3x3.resources

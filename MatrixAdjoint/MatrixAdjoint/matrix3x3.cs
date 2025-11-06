@@ -34,6 +34,12 @@ namespace MatrixAdjoint
             {
                 e.Handled = true;
             }
+
+            // Ensure negative sign is at the beginning (optional, but good practice)
+            if ((e.KeyChar == '-') && ((sender as TextBox).Text.Length > 0 && (sender as TextBox).Text.IndexOf('-') > -1))
+            {
+                e.Handled = true;
+            }
         }
 
         private void var1_KeyPress(object sender, KeyPressEventArgs e)
@@ -42,6 +48,27 @@ namespace MatrixAdjoint
             {
                 e.Handled = true;
             }
+        }
+
+        private double[,] GetMatrix()
+        {
+            return new double[,]
+            { 
+                { Convert.ToDouble(row1col1.Text), Convert.ToDouble(row1col2.Text), Convert.ToDouble(row1col3.Text) },
+                { Convert.ToDouble(row2col1.Text), Convert.ToDouble(row2col2.Text), Convert.ToDouble(row2col3.Text) },
+                { Convert.ToDouble(row3col1.Text), Convert.ToDouble(row3col2.Text), Convert.ToDouble(row3col3.Text) }
+            };
+        }
+
+        private void calcButton_Click(object sender, EventArgs e)
+        {
+            double[,] matrixValues = new double[3, 3];
+
+            matrixValues = GetMatrix();
+
+            cof_11.Text = Convert.ToString(matrixValues[0, 0]);
+            cof_12.Text = Convert.ToString(matrixValues[0, 1]);
+            cof_13.Text = Convert.ToString(matrixValues[0, 2]);
         }
     }
 }

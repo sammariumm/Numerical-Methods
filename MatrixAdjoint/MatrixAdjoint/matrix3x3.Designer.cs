@@ -39,23 +39,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.result2 = new System.Windows.Forms.TextBox();
-            this.result1 = new System.Windows.Forms.TextBox();
-            this.row2col3 = new System.Windows.Forms.TextBox();
-            this.row1col3 = new System.Windows.Forms.TextBox();
-            this.row2col2 = new System.Windows.Forms.TextBox();
-            this.row2col1 = new System.Windows.Forms.TextBox();
-            this.row1col2 = new System.Windows.Forms.TextBox();
-            this.row1col1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.result3 = new System.Windows.Forms.TextBox();
-            this.row3col3 = new System.Windows.Forms.TextBox();
-            this.row3col2 = new System.Windows.Forms.TextBox();
-            this.row3col1 = new System.Windows.Forms.TextBox();
-            this.var3 = new System.Windows.Forms.TextBox();
-            this.var2 = new System.Windows.Forms.TextBox();
-            this.var1 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.cof_33 = new System.Windows.Forms.TextBox();
             this.cof_32 = new System.Windows.Forms.TextBox();
@@ -91,14 +76,29 @@
             this.detTextBox = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.valueResult3 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.varResult3 = new System.Windows.Forms.TextBox();
             this.valueResult2 = new System.Windows.Forms.TextBox();
             this.valueResult1 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.varResult2 = new System.Windows.Forms.TextBox();
+            this.varResult1 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.row1col1 = new System.Windows.Forms.TextBox();
+            this.row1col2 = new System.Windows.Forms.TextBox();
+            this.row1col3 = new System.Windows.Forms.TextBox();
+            this.row2col1 = new System.Windows.Forms.TextBox();
+            this.row2col2 = new System.Windows.Forms.TextBox();
+            this.row2col3 = new System.Windows.Forms.TextBox();
+            this.row3col1 = new System.Windows.Forms.TextBox();
+            this.row3col2 = new System.Windows.Forms.TextBox();
+            this.row3col3 = new System.Windows.Forms.TextBox();
+            this.var1 = new System.Windows.Forms.TextBox();
+            this.var2 = new System.Windows.Forms.TextBox();
+            this.var3 = new System.Windows.Forms.TextBox();
+            this.result1 = new System.Windows.Forms.TextBox();
+            this.result2 = new System.Windows.Forms.TextBox();
+            this.result3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // calcButton
@@ -185,7 +185,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("TT Hoves Pro Trial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(363, 149);
+            this.label3.Location = new System.Drawing.Point(365, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 14);
             this.label3.TabIndex = 29;
@@ -195,7 +195,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("TT Hoves Pro Trial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(363, 121);
+            this.label2.Location = new System.Drawing.Point(365, 121);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(13, 14);
             this.label2.TabIndex = 28;
@@ -211,78 +211,6 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Enter Matrix:";
             // 
-            // result2
-            // 
-            this.result2.AcceptsTab = true;
-            this.result2.Location = new System.Drawing.Point(382, 145);
-            this.result2.Name = "result2";
-            this.result2.Size = new System.Drawing.Size(56, 20);
-            this.result2.TabIndex = 26;
-            this.result2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // result1
-            // 
-            this.result1.AcceptsTab = true;
-            this.result1.Location = new System.Drawing.Point(382, 117);
-            this.result1.Name = "result1";
-            this.result1.Size = new System.Drawing.Size(56, 20);
-            this.result1.TabIndex = 25;
-            this.result1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row2col3
-            // 
-            this.row2col3.AcceptsTab = true;
-            this.row2col3.Location = new System.Drawing.Point(227, 145);
-            this.row2col3.Name = "row2col3";
-            this.row2col3.Size = new System.Drawing.Size(56, 20);
-            this.row2col3.TabIndex = 24;
-            this.row2col3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row1col3
-            // 
-            this.row1col3.AcceptsTab = true;
-            this.row1col3.Location = new System.Drawing.Point(227, 117);
-            this.row1col3.Name = "row1col3";
-            this.row1col3.Size = new System.Drawing.Size(56, 20);
-            this.row1col3.TabIndex = 23;
-            this.row1col3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row2col2
-            // 
-            this.row2col2.AcceptsTab = true;
-            this.row2col2.Location = new System.Drawing.Point(164, 145);
-            this.row2col2.Name = "row2col2";
-            this.row2col2.Size = new System.Drawing.Size(56, 20);
-            this.row2col2.TabIndex = 22;
-            this.row2col2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row2col1
-            // 
-            this.row2col1.AcceptsTab = true;
-            this.row2col1.Location = new System.Drawing.Point(102, 145);
-            this.row2col1.Name = "row2col1";
-            this.row2col1.Size = new System.Drawing.Size(56, 20);
-            this.row2col1.TabIndex = 21;
-            this.row2col1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row1col2
-            // 
-            this.row1col2.AcceptsTab = true;
-            this.row1col2.Location = new System.Drawing.Point(164, 117);
-            this.row1col2.Name = "row1col2";
-            this.row1col2.Size = new System.Drawing.Size(56, 20);
-            this.row1col2.TabIndex = 20;
-            this.row1col2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row1col1
-            // 
-            this.row1col1.AcceptsTab = true;
-            this.row1col1.Location = new System.Drawing.Point(102, 117);
-            this.row1col1.Name = "row1col1";
-            this.row1col1.Size = new System.Drawing.Size(56, 20);
-            this.row1col1.TabIndex = 19;
-            this.row1col1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -297,77 +225,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("TT Hoves Pro Trial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(363, 178);
+            this.label12.Location = new System.Drawing.Point(365, 178);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(13, 14);
             this.label12.TabIndex = 42;
             this.label12.Text = "=";
-            // 
-            // result3
-            // 
-            this.result3.AcceptsTab = true;
-            this.result3.Location = new System.Drawing.Point(382, 174);
-            this.result3.Name = "result3";
-            this.result3.Size = new System.Drawing.Size(56, 20);
-            this.result3.TabIndex = 41;
-            this.result3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row3col3
-            // 
-            this.row3col3.AcceptsTab = true;
-            this.row3col3.Location = new System.Drawing.Point(227, 174);
-            this.row3col3.Name = "row3col3";
-            this.row3col3.Size = new System.Drawing.Size(56, 20);
-            this.row3col3.TabIndex = 40;
-            this.row3col3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row3col2
-            // 
-            this.row3col2.AcceptsTab = true;
-            this.row3col2.Location = new System.Drawing.Point(164, 174);
-            this.row3col2.Name = "row3col2";
-            this.row3col2.Size = new System.Drawing.Size(56, 20);
-            this.row3col2.TabIndex = 39;
-            this.row3col2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // row3col1
-            // 
-            this.row3col1.AcceptsTab = true;
-            this.row3col1.Location = new System.Drawing.Point(102, 174);
-            this.row3col1.Name = "row3col1";
-            this.row3col1.Size = new System.Drawing.Size(56, 20);
-            this.row3col1.TabIndex = 38;
-            this.row3col1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.row1col1_KeyPress);
-            // 
-            // var3
-            // 
-            this.var3.AcceptsTab = true;
-            this.var3.Location = new System.Drawing.Point(301, 174);
-            this.var3.MaxLength = 1;
-            this.var3.Name = "var3";
-            this.var3.Size = new System.Drawing.Size(56, 20);
-            this.var3.TabIndex = 46;
-            this.var3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.var1_KeyPress);
-            // 
-            // var2
-            // 
-            this.var2.AcceptsTab = true;
-            this.var2.Location = new System.Drawing.Point(301, 145);
-            this.var2.MaxLength = 1;
-            this.var2.Name = "var2";
-            this.var2.Size = new System.Drawing.Size(56, 20);
-            this.var2.TabIndex = 45;
-            this.var2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.var1_KeyPress);
-            // 
-            // var1
-            // 
-            this.var1.AcceptsTab = true;
-            this.var1.Location = new System.Drawing.Point(301, 117);
-            this.var1.MaxLength = 1;
-            this.var1.Name = "var1";
-            this.var1.Size = new System.Drawing.Size(56, 20);
-            this.var1.TabIndex = 44;
-            this.var1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.var1_KeyPress);
             // 
             // label13
             // 
@@ -666,13 +528,13 @@
             this.valueResult3.Size = new System.Drawing.Size(100, 20);
             this.valueResult3.TabIndex = 88;
             // 
-            // textBox31
+            // varResult3
             // 
-            this.textBox31.Location = new System.Drawing.Point(445, 423);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(56, 20);
-            this.textBox31.TabIndex = 86;
+            this.varResult3.Location = new System.Drawing.Point(445, 423);
+            this.varResult3.Name = "varResult3";
+            this.varResult3.ReadOnly = true;
+            this.varResult3.Size = new System.Drawing.Size(56, 20);
+            this.varResult3.TabIndex = 86;
             // 
             // valueResult2
             // 
@@ -690,21 +552,21 @@
             this.valueResult1.Size = new System.Drawing.Size(100, 20);
             this.valueResult1.TabIndex = 84;
             // 
-            // textBox35
+            // varResult2
             // 
-            this.textBox35.Location = new System.Drawing.Point(445, 394);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.Size = new System.Drawing.Size(56, 20);
-            this.textBox35.TabIndex = 82;
+            this.varResult2.Location = new System.Drawing.Point(445, 394);
+            this.varResult2.Name = "varResult2";
+            this.varResult2.ReadOnly = true;
+            this.varResult2.Size = new System.Drawing.Size(56, 20);
+            this.varResult2.TabIndex = 82;
             // 
-            // textBox37
+            // varResult1
             // 
-            this.textBox37.Location = new System.Drawing.Point(445, 366);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(56, 20);
-            this.textBox37.TabIndex = 80;
+            this.varResult1.Location = new System.Drawing.Point(445, 366);
+            this.varResult1.Name = "varResult1";
+            this.varResult1.ReadOnly = true;
+            this.varResult1.Size = new System.Drawing.Size(56, 20);
+            this.varResult1.TabIndex = 80;
             // 
             // label19
             // 
@@ -736,21 +598,141 @@
             this.label21.TabIndex = 90;
             this.label21.Text = "=";
             // 
+            // row1col1
+            // 
+            this.row1col1.Location = new System.Drawing.Point(99, 118);
+            this.row1col1.Name = "row1col1";
+            this.row1col1.Size = new System.Drawing.Size(56, 20);
+            this.row1col1.TabIndex = 93;
+            // 
+            // row1col2
+            // 
+            this.row1col2.Location = new System.Drawing.Point(161, 118);
+            this.row1col2.Name = "row1col2";
+            this.row1col2.Size = new System.Drawing.Size(56, 20);
+            this.row1col2.TabIndex = 94;
+            // 
+            // row1col3
+            // 
+            this.row1col3.Location = new System.Drawing.Point(223, 118);
+            this.row1col3.Name = "row1col3";
+            this.row1col3.Size = new System.Drawing.Size(56, 20);
+            this.row1col3.TabIndex = 95;
+            // 
+            // row2col1
+            // 
+            this.row2col1.Location = new System.Drawing.Point(99, 146);
+            this.row2col1.Name = "row2col1";
+            this.row2col1.Size = new System.Drawing.Size(56, 20);
+            this.row2col1.TabIndex = 96;
+            // 
+            // row2col2
+            // 
+            this.row2col2.Location = new System.Drawing.Point(161, 146);
+            this.row2col2.Name = "row2col2";
+            this.row2col2.Size = new System.Drawing.Size(56, 20);
+            this.row2col2.TabIndex = 97;
+            // 
+            // row2col3
+            // 
+            this.row2col3.Location = new System.Drawing.Point(223, 146);
+            this.row2col3.Name = "row2col3";
+            this.row2col3.Size = new System.Drawing.Size(56, 20);
+            this.row2col3.TabIndex = 98;
+            // 
+            // row3col1
+            // 
+            this.row3col1.Location = new System.Drawing.Point(99, 175);
+            this.row3col1.Name = "row3col1";
+            this.row3col1.Size = new System.Drawing.Size(56, 20);
+            this.row3col1.TabIndex = 99;
+            // 
+            // row3col2
+            // 
+            this.row3col2.Location = new System.Drawing.Point(161, 175);
+            this.row3col2.Name = "row3col2";
+            this.row3col2.Size = new System.Drawing.Size(56, 20);
+            this.row3col2.TabIndex = 100;
+            // 
+            // row3col3
+            // 
+            this.row3col3.Location = new System.Drawing.Point(223, 175);
+            this.row3col3.Name = "row3col3";
+            this.row3col3.Size = new System.Drawing.Size(56, 20);
+            this.row3col3.TabIndex = 101;
+            // 
+            // var1
+            // 
+            this.var1.Location = new System.Drawing.Point(301, 118);
+            this.var1.Name = "var1";
+            this.var1.Size = new System.Drawing.Size(56, 20);
+            this.var1.TabIndex = 102;
+            // 
+            // var2
+            // 
+            this.var2.Location = new System.Drawing.Point(301, 146);
+            this.var2.Name = "var2";
+            this.var2.Size = new System.Drawing.Size(56, 20);
+            this.var2.TabIndex = 103;
+            // 
+            // var3
+            // 
+            this.var3.Location = new System.Drawing.Point(301, 175);
+            this.var3.Name = "var3";
+            this.var3.Size = new System.Drawing.Size(56, 20);
+            this.var3.TabIndex = 104;
+            // 
+            // result1
+            // 
+            this.result1.Location = new System.Drawing.Point(384, 118);
+            this.result1.Name = "result1";
+            this.result1.Size = new System.Drawing.Size(56, 20);
+            this.result1.TabIndex = 105;
+            // 
+            // result2
+            // 
+            this.result2.Location = new System.Drawing.Point(384, 146);
+            this.result2.Name = "result2";
+            this.result2.Size = new System.Drawing.Size(56, 20);
+            this.result2.TabIndex = 106;
+            // 
+            // result3
+            // 
+            this.result3.Location = new System.Drawing.Point(384, 175);
+            this.result3.Name = "result3";
+            this.result3.Size = new System.Drawing.Size(56, 20);
+            this.result3.TabIndex = 107;
+            // 
             // matrix3x3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 565);
+            this.Controls.Add(this.result3);
+            this.Controls.Add(this.result2);
+            this.Controls.Add(this.result1);
+            this.Controls.Add(this.var3);
+            this.Controls.Add(this.var2);
+            this.Controls.Add(this.var1);
+            this.Controls.Add(this.row3col3);
+            this.Controls.Add(this.row3col2);
+            this.Controls.Add(this.row3col1);
+            this.Controls.Add(this.row2col3);
+            this.Controls.Add(this.row2col2);
+            this.Controls.Add(this.row2col1);
+            this.Controls.Add(this.row1col3);
+            this.Controls.Add(this.row1col2);
+            this.Controls.Add(this.row1col1);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.valueResult3);
-            this.Controls.Add(this.textBox31);
+            this.Controls.Add(this.varResult3);
             this.Controls.Add(this.valueResult2);
             this.Controls.Add(this.valueResult1);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox37);
+            this.Controls.Add(this.varResult2);
+            this.Controls.Add(this.varResult1);
             this.Controls.Add(this.detTextBox);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -784,15 +766,8 @@
             this.Controls.Add(this.cof_12);
             this.Controls.Add(this.cof_11);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.var3);
-            this.Controls.Add(this.var2);
-            this.Controls.Add(this.var1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.result3);
-            this.Controls.Add(this.row3col3);
-            this.Controls.Add(this.row3col2);
-            this.Controls.Add(this.row3col1);
             this.Controls.Add(this.calcButton);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -804,14 +779,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.result2);
-            this.Controls.Add(this.result1);
-            this.Controls.Add(this.row2col3);
-            this.Controls.Add(this.row1col3);
-            this.Controls.Add(this.row2col2);
-            this.Controls.Add(this.row2col1);
-            this.Controls.Add(this.row1col2);
-            this.Controls.Add(this.row1col1);
             this.Name = "matrix3x3";
             this.Text = "matrix3x3";
             this.Load += new System.EventHandler(this.matrix3x3_Load);
@@ -833,23 +800,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox result2;
-        private System.Windows.Forms.TextBox result1;
-        private System.Windows.Forms.TextBox row2col3;
-        private System.Windows.Forms.TextBox row1col3;
-        private System.Windows.Forms.TextBox row2col2;
-        private System.Windows.Forms.TextBox row2col1;
-        private System.Windows.Forms.TextBox row1col2;
-        private System.Windows.Forms.TextBox row1col1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox result3;
-        private System.Windows.Forms.TextBox row3col3;
-        private System.Windows.Forms.TextBox row3col2;
-        private System.Windows.Forms.TextBox row3col1;
-        private System.Windows.Forms.TextBox var3;
-        private System.Windows.Forms.TextBox var2;
-        private System.Windows.Forms.TextBox var1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox cof_33;
         private System.Windows.Forms.TextBox cof_32;
@@ -885,13 +837,28 @@
         private System.Windows.Forms.TextBox detTextBox;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox valueResult3;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox varResult3;
         private System.Windows.Forms.TextBox valueResult2;
         private System.Windows.Forms.TextBox valueResult1;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.TextBox varResult2;
+        private System.Windows.Forms.TextBox varResult1;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox row1col1;
+        private System.Windows.Forms.TextBox row1col2;
+        private System.Windows.Forms.TextBox row1col3;
+        private System.Windows.Forms.TextBox row2col1;
+        private System.Windows.Forms.TextBox row2col2;
+        private System.Windows.Forms.TextBox row2col3;
+        private System.Windows.Forms.TextBox row3col1;
+        private System.Windows.Forms.TextBox row3col2;
+        private System.Windows.Forms.TextBox row3col3;
+        private System.Windows.Forms.TextBox var1;
+        private System.Windows.Forms.TextBox var2;
+        private System.Windows.Forms.TextBox var3;
+        private System.Windows.Forms.TextBox result1;
+        private System.Windows.Forms.TextBox result2;
+        private System.Windows.Forms.TextBox result3;
     }
 }

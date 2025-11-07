@@ -170,6 +170,12 @@ namespace MatrixAdjoint
             valueResult2.Text = Convert.ToString(sol[1]);
         }
 
+        private void DisplayVariables(String[] matrixVar)
+        {
+            varResult1.Text = matrixVar[0];
+            varResult2.Text = matrixVar[1];
+        }
+
         // Function to calculate for the solutions
         private void calcButton_Click(object sender, EventArgs e)
         {
@@ -204,6 +210,7 @@ namespace MatrixAdjoint
             DisplayCofactor(matrixCof);
             DisplayAdjoint(matrixAdj);
             DisplayInverse(matrixInv);
+            DisplayVariables(matrixVar);
             DisplaySolution(sol);
 
             detTextBox.Text = Convert.ToString(determinant);

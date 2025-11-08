@@ -36,3 +36,7 @@ C:\Numerical-Methods\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.csproj.
 C:\Numerical-Methods\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.csproj.CoreCompileInputs.cache
 C:\Numerical-Methods\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.exe
 C:\Numerical-Methods\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.pdb
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\bin\Debug\MatrixAdjoint.exe.manifest
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\bin\Debug\MatrixAdjoint.application
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.exe.manifest
+C:\SCHOOL-RELATED\NCP3108\NUMERICAL-METHODS\MatrixAdjoint\MatrixAdjoint\obj\Debug\MatrixAdjoint.application

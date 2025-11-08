@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\matrixadjoint\\matrix3x3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\matrix3x3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|c:\\school-related\\ncp3108\\numerical-methods\\matrixadjoint\\matrixadjoint\\matrix2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\matrix2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\matrixadjoint\\matrix2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\matrix2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|c:\\school-related\\ncp3108\\numerical-methods\\matrixadjoint\\matrixadjoint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\matrixadjoint\\matrix3x3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\matrix3x3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\matrixadjoint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:MatrixAdjoint\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\matrixadjoint\\matrix2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AB18BB2-918D-49DD-964B-144A0FEBAFE1}|MatrixAdjoint\\MatrixAdjoint.csproj|solutionrelative:matrixadjoint\\matrix2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\Form1.cs",
-              "RelativeDocumentMoniker": "MatrixAdjoint\\Form1.cs",
-              "ToolTip": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\Form1.cs",
-              "RelativeToolTip": "MatrixAdjoint\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvyAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:27:59.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\Form1.cs",
               "RelativeDocumentMoniker": "MatrixAdjoint\\Form1.cs",
@@ -67,53 +42,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "matrix3x3.cs [Design]",
-              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs",
-              "RelativeDocumentMoniker": "MatrixAdjoint\\matrix3x3.cs",
-              "ToolTip": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs [Design]",
-              "RelativeToolTip": "MatrixAdjoint\\matrix3x3.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "matrix2x2.cs [Design]",
+              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs",
+              "RelativeDocumentMoniker": "MatrixAdjoint\\matrix2x2.cs",
+              "ToolTip": "C:\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:14:38.698Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "matrix3x3.cs",
-              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs",
-              "RelativeDocumentMoniker": "MatrixAdjoint\\matrix3x3.cs",
-              "ToolTip": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs",
-              "RelativeToolTip": "MatrixAdjoint\\matrix3x3.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAswGEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:02:34.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T14:31:23.246Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "matrix2x2.cs [Design]",
-              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs",
-              "RelativeDocumentMoniker": "MatrixAdjoint\\matrix2x2.cs",
-              "ToolTip": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs [Design]",
-              "RelativeToolTip": "MatrixAdjoint\\matrix2x2.cs [Design]",
+              "Title": "matrix3x3.cs [Design]",
+              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs",
+              "RelativeDocumentMoniker": "MatrixAdjoint\\matrix3x3.cs",
+              "ToolTip": "C:\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix3x3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:31:23.246Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "matrix2x2.cs",
-              "DocumentMoniker": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs",
-              "RelativeDocumentMoniker": "MatrixAdjoint\\matrix2x2.cs",
-              "ToolTip": "C:\\SCHOOL-RELATED\\NCP3108\\Numerical-Methods\\MatrixAdjoint\\MatrixAdjoint\\matrix2x2.cs",
-              "RelativeToolTip": "MatrixAdjoint\\matrix2x2.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAANIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:07:50.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T04:09:05.764Z"
             }
           ]
         }
